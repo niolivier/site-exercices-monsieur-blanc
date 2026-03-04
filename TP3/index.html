@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Détails TP3 - Traitement d'Images</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; padding: 40px; background: #fdfdfd; color: #333; }
+        .container { max-width: 850px; margin: auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        
+        /* Style Turquoise pour le TP3 */
+        h1 { border-bottom: 3px solid #1abc9c; padding-bottom: 10px; color: #1abc9c; }
+        .section-title { font-weight: bold; margin-top: 25px; color: #666; text-transform: uppercase; border-left: 5px solid #1abc9c; padding-left: 10px; }
+        
+        .list { list-style: none; padding: 0; }
+        .item { display: flex; justify-content: space-between; align-items: center; padding: 12px; border: 1px solid #eee; margin-bottom: 8px; border-radius: 8px; }
+        
+        .btn { text-decoration: none; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 5px; font-weight: bold; }
+        .btn:hover { background: #16a085; }
+        
+        .back-link { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #888; }
+        .file-info { color: #16a085; font-size: 0.9em; font-style: italic; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-link">← Retour au menu principal</a>
+        <h1>Contenu du TP3</h1>
+
+        <div class="section-title">Bibliothèque de base</div>
+        <ul class="list">
+            <li class="item">
+                <span>Classe de manipulation de pixels</span>
+                <span class="file-info">classImage.php</span>
+                <a href="classImage.php" class="btn">Voir le code</a>
+            </li>
+        </ul>
+
+        <div class="section-title">Les 8 Exercices</div>
+        <ul class="list">
+            <li class="item"><span>Ex 1 : Création (Carré Orange)</span> <a href="tp3ex1.php" class="btn">Lancer</a></li>
+            <li class="item"><span>Ex 2 : Génération (Bruit Aléatoire)</span> <a href="tp3ex2.php" class="btn">Lancer</a></li>
+            <li class="item"><span>Ex 3 : Dessin (Drapeau à bandes)</span> <a href="tp3ex3.php" class="btn">Lancer</a></li>
+            <li class="item"><span>Ex 4 : Filtre Négatif (Inversion)</span> <a href="tp3ex4.php" class="btn">Lancer</a></li>
+            <li class="item"><span>Ex 5 : Effet Miroir Horizontal</span> <a href="tp3ex5.php" class="btn">Lancer</a></li>
+            <li class="item"><span>Ex 6 : Composition (Concaténation)</span> <a href="tp3ex6.php" class="btn">Lancer</a></li>
+            <li class="item"><span>Ex 7 : Filtre Niveaux de Gris</span> <a href="tp3ex7.php" class="btn">Lancer</a></li>
+            <li class="item"><span>Ex 8 : Filtre Colorisation Rouge</span> <a href="tp3ex8.php" class="btn">Lancer</a></li>
+        </ul>
+
+        <div class="section-title">Ressources (Images sources)</div>
+        <ul class="list">
+            <li class="item"><span>Image pour Négatif</span> <span class="file-info">unnamed.png</span> <a href="unnamed.png" class="btn">Voir</a></li>
+            <li class="item"><span>Image pour Miroir</span> <span class="file-info">Vichy_Labo.jpg</span> <a href="Vichy_Labo.jpg" class="btn">Voir</a></li>
+            <li class="item"><span>Image Gauche (Cartes)</span> <span class="file-info">carte_gauche.jpg</span> <a href="carte_gauche.jpg" class="btn">Voir</a></li>
+            <li class="item"><span>Image Droite (Cartes)</span> <span class="file-info">carte_droite.jpg</span> <a href="carte_droite.jpg" class="btn">Voir</a></li>
+            <li class="item"><span>Image pour Noir & Blanc</span> <span class="file-info">Anyme_en_2025.png</span> <a href="Anyme_en_2025.png" class="btn">Voir</a></li>
+        </ul>
+    </div>
+</body>
+</html>
