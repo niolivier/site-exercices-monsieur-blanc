@@ -45,4 +45,5 @@ foreach (occurrences($notes) as $note => $nb) {
 ?>
 
 </body>
+
 </html>
