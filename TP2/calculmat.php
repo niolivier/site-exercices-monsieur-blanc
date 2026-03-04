@@ -62,4 +62,5 @@ afficherMatrice(multiplication($A, $B, $dim), $dim);
 ?>
 
 </body>
+
 </html>
