@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Travaux - Accès Rapide</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+        }
+
+        h1 {
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        .grille {
+            display: grid;
+            grid-template-columns: repeat(4, 160px);
+            grid-template-rows: repeat(2, 160px);
+            gap: 20px;
+        }
+
+        .case {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+            border: 2px solid;
+            border-radius: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: all 0.2s ease-in-out;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .case:hover {
+            color: white !important;
+            transform: scale(1.05);
+        }
+
+        /* --- STYLE POUR LES TD (NOIR) --- */
+        .td {
+            border-color: #333;
+            color: #333;
+        }
+
+        .td:hover {
+            background-color: #333;
+        }
+
+        /* --- STYLE POUR LES TP (ROUGE) --- */
+        .tp {
+            border-color: #e74c3c; /* Un beau rouge moderne */
+            color: #e74c3c;
+        }
+
+        .tp:hover {
+            background-color: #e74c3c;
+        }
+
+        .subtitle {
+            font-size: 0.7rem;
+            font-weight: normal;
+            margin-top: 5px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mes TD et TP</h1>
+
+    <div class="grille">
+        <a href="TD1/Tp1pseudolangage.docx" class="case td">
+            TD1
+            <span class="subtitle">Word Doc</span>
+        </a>
+        <a href="TD2/index.html" class="case td">TD2</a>
+        <a href="TD3/index.html" class="case td">TD3</a>
+        <a href="TD4/index.html" class="case td">TD4</a>
+        <a href="TD5/index.html" class="case td">TD5</a>
+
+        <a href="TP1/index.html" class="case tp">TP1</a>
+        <a href="TP2/index.html" class="case tp">TP2</a>
+        <a href="TP3/index.html" class="case tp">TP3</a>
+    </div>
+
+</body>
+</html>
