@@ -1,0 +1,7 @@
+body { font-family: 'Segoe UI', sans-serif; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; padding: 40px; }
+.grille { display: grid; grid-template-columns: repeat(4, 160px); gap: 20px; }
+.case { display: flex; justify-content: center; align-items: center; height: 160px; background: white; border: 2px solid #333; border-radius: 15px; text-decoration: none; color: #333; font-weight: bold; transition: 0.3s; text-align: center; padding: 10px; }
+.case:hover { background: #333; color: white; transform: scale(1.05); }
+.liste-container { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 400px; text-align: center; }
+.btn-exos { display: block; margin: 10px 0; padding: 15px; background: #f8f9fa; color: #333; text-decoration: none; border-radius: 8px; border: 1px solid #ddd; font-weight: bold; }
+.btn-exos:hover { background: #e9ecef; border-color: #333; }
